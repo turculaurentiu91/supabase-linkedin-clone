@@ -6,7 +6,9 @@
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
-    "start": "next start"
+    "start": "next start",
+    "supabase:start": "supabase start",
+    "supabase:gen-types": " supabase gen types typescript --local > types.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.8.0",
